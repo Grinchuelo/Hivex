@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-.container::before {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,10 +23,6 @@ body {
     height: 100%;
     padding: 3rem;
     background: #b84c1d;
-    /* box-shadow:
-    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0 0 0 2px #b84c1d,
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
     background-image: linear-gradient(to right top, #d16d1b, #d1881b, #d1971b, #d1b61b, #d89009);
 }
 
@@ -60,12 +56,12 @@ body {
     border-radius: 50%;
     background: #fcefb7;
     opacity: .7;
-    animation: button 3s infinite;
+    animation: boton 3s infinite;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-@keyframes button {
+@keyframes boton {
     0% {
         transform: translateY(0rem);
     }
@@ -77,6 +73,6 @@ body {
     }
 }
 
-#flecha {
+#flecha-boton {
     width: 50px;
 }
